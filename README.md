@@ -17,6 +17,7 @@
 
 ```text
 PUT ANSWER TO #2 HERE
+The blank object is mutable, because an immutable object is an object that once created, cannot be modified, but the point class's x and y points can be modified at any point.
 ```
 
 ```java
@@ -48,6 +49,7 @@ public class Puzzler {
 
 ```text
 PUT ANSWER TO #5 HERE
+findCenter returns a Point class, which provides 2 separate values and in this case, the method only takes one value to produce them. distance returns a double value by doing a simple math equation when provided with two values to produce it.
 ```
 
 ```java
@@ -88,6 +90,8 @@ Recall that aliases are two variables that refer to the same object.
 
 ```text
 PUT ANSWER TO #2 HERE
+(5, 8)
+(5, 8)
 ```
 
 3. At the end of main, are p1 and p2 aliased? Why or why not?
@@ -95,6 +99,7 @@ PUT ANSWER TO #2 HERE
 
 ```text
 PUT ANSWER TO #3 HERE
+p1 and p2 are not aliased, even though they are both set to the value of findCenter(box1), box1 is grown before p2 is set, thus the value of their centers are different.
 ```
 
 ```java
